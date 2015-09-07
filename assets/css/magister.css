@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(../images/body4.jpg) no-repeat center center fixed; 
+	background:#505D6E url(../images/bg-pic.jpg) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -246,8 +246,23 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 
+/********************************************************/
+/*                 Mine                      */
+/********************************************************/
 
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
 
@@ -363,6 +378,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .thumbnail .caption {
 	color: inherit;
 }
+
+
+
+
 
 
 
